@@ -2,19 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://kaizencare.in/Home.html</loc>
-<<<<<<< Updated upstream
-        <lastmod>2024-12-23T02:33:29+05:30</lastmod>
+        <lastmod>2024-12-27T19:39:43+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/index.html</loc>
-        <lastmod>2024-12-23T02:33:29+05:30</lastmod>
-=======
-        <lastmod>2024-12-27T19:24:46+05:30</lastmod>
-    </url>
-    <url>
-        <loc>https://kaizencare.in/index.html</loc>
-        <lastmod>2024-12-27T19:24:46+05:30</lastmod>
->>>>>>> Stashed changes
+        <lastmod>2024-12-27T19:39:43+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/Contact.html</loc>
@@ -22,7 +14,7 @@
     </url>
     <url>
         <loc>https://kaizencare.in/About-Us.html</loc>
-        <lastmod>2024-12-23T01:03:27+05:30</lastmod>
+        <lastmod>2024-12-27T18:30:55+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/Services.html</loc>
@@ -58,7 +50,7 @@
     </url>
     <url>
         <loc>https://kaizencare.in/DHS-Bloating-and-Gas-Treatment.html</loc>
-        <lastmod>2024-12-23T01:05:48+05:30</lastmod>
+        <lastmod>2024-12-27T18:37:54+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/DHS-Diarrhea-Management.html</loc>
@@ -94,7 +86,7 @@
     </url>
     <url>
         <loc>https://kaizencare.in/PCS-Chronic-Pancreatitis.html</loc>
-        <lastmod>2024-12-23T01:08:39+05:30</lastmod>
+        <lastmod>2024-12-27T18:45:13+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/PCS-Pancreatic-Cancer.html</loc>
@@ -106,31 +98,27 @@
     </url>
     <url>
         <loc>https://kaizencare.in/AES-Upper-GI-Endoscopy.html</loc>
-<<<<<<< Updated upstream
-        <lastmod>2024-12-23T01:04:49+05:30</lastmod>
-=======
         <lastmod>2024-12-27T19:11:37+05:30</lastmod>
->>>>>>> Stashed changes
     </url>
     <url>
         <loc>https://kaizencare.in/AES-Colonoscopy-in-Bilaspur.html</loc>
-        <lastmod>2024-12-23T01:03:56+05:30</lastmod>
+        <lastmod>2024-12-27T18:46:07+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/AES-ERCP-in-Bilaspur.html</loc>
-        <lastmod>2024-12-23T01:04:04+05:30</lastmod>
+        <lastmod>2024-12-27T18:46:19+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/AES-EUS-in-Bilaspur.html</loc>
-        <lastmod>2024-12-23T01:04:13+05:30</lastmod>
+        <lastmod>2024-12-27T18:46:31+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/AES-Foreign-Body-Removal.html</loc>
-        <lastmod>2024-12-23T01:04:30+05:30</lastmod>
+        <lastmod>2024-12-27T18:46:48+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/AES-Therapeutic-Endoscopy.html</loc>
-        <lastmod>2024-12-23T01:04:41+05:30</lastmod>
+        <lastmod>2024-12-27T18:47:00+05:30</lastmod>
     </url>
     <url>
         <loc>https://kaizencare.in/Blog-Acid-Reflux.html</loc>
