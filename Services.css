@@ -236,7 +236,7 @@
   grid-template-columns: repeat(3, calc(33.3333% - 18.6667px));
   min-height: 887px;
   grid-auto-columns: calc(33.3333% - 18.6667px);
-  grid-gap: 28px;
+  --gap: 28px;
 }
 
 .u-section-2 .u-list-item-1 {
@@ -446,7 +446,8 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 18.6667px));
     grid-auto-columns: calc(33.333333333333336% - 18.6667px);
-    min-height: 734px;
+    grid-gap: 28px;
+    min-height: 731px;
   }
 
   .u-section-2 .u-list-item-1 {
@@ -523,7 +524,7 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 14.000024999999999px));
     grid-auto-columns: calc(50% - 14.000024999999999px);
-    min-height: 1145px;
+    min-height: 1120px;
   }
 }
 
@@ -641,7 +642,7 @@
   grid-template-columns: repeat(3, calc(33.3333% - 18.6667px));
   min-height: 540px;
   grid-auto-columns: calc(33.3333% - 18.6667px);
-  grid-gap: 28px;
+  --gap: 28px;
 }
 
 .u-section-3 .u-list-item-1 {
@@ -813,7 +814,8 @@
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 18.6667px));
     grid-auto-columns: calc(33.333333333333336% - 18.6667px);
-    min-height: 446px;
+    grid-gap: 28px;
+    min-height: 445px;
   }
 }
 
@@ -825,7 +827,7 @@
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 14.000024999999999px));
     grid-auto-columns: calc(50% - 14.000024999999999px);
-    min-height: 792px;
+    min-height: 767px;
   }
 }
 
@@ -918,7 +920,7 @@
   grid-template-columns: repeat(3, calc(33.3333% - 18.6667px));
   min-height: 540px;
   grid-auto-columns: calc(33.3333% - 18.6667px);
-  grid-gap: 28px;
+  --gap: 28px;
 }
 
 .u-section-4 .u-list-item-1 {
@@ -1046,7 +1048,8 @@
   .u-section-4 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 18.6667px));
     grid-auto-columns: calc(33.333333333333336% - 18.6667px);
-    min-height: 446px;
+    grid-gap: 28px;
+    min-height: 445px;
   }
 }
 
@@ -1070,7 +1073,7 @@
   .u-section-4 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 14.000024999999999px));
     grid-auto-columns: calc(50% - 14.000024999999999px);
-    min-height: 519px;
+    min-height: 511px;
   }
 }
 
@@ -1180,7 +1183,7 @@
   grid-template-columns: repeat(3, calc(33.3333% - 18.6667px));
   min-height: 540px;
   grid-auto-columns: calc(33.3333% - 18.6667px);
-  grid-gap: 28px;
+  --gap: 28px;
 }
 
 .u-section-5 .u-list-item-1 {
@@ -1350,8 +1353,9 @@
 
   .u-section-5 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 18.6667px));
-    min-height: 446px;
+    min-height: 445px;
     grid-auto-columns: calc(33.333333333333336% - 18.6667px);
+    grid-gap: 28px;
   }
 
   .u-section-5 .u-text-4 {
@@ -1403,7 +1407,7 @@
 
   .u-section-5 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 14.000024999999999px));
-    min-height: 792px;
+    min-height: 767px;
     grid-auto-columns: calc(50% - 14.000024999999999px);
   }
 }
@@ -1518,7 +1522,8 @@
 .u-section-6 .u-repeater-1 {
   grid-template-columns: repeat(1, 100%);
   min-height: 492px;
-  grid-gap: 10px;
+  --gap: 10px;
+  grid-auto-columns: 100%;
 }
 
 .u-section-6 .u-container-layout-3 {
@@ -1620,6 +1625,10 @@
   .u-section-6 .u-text-1 {
     width: auto;
     margin-right: 85px;
+  }
+
+  .u-section-6 .u-repeater-1 {
+    grid-gap: 10px;
   }
 }
 
