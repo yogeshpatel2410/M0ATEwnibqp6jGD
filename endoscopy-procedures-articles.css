@@ -2122,12 +2122,11 @@ a { font-size: 1.125rem; line-height: 1.6; }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 954px;
+    min-height: 1178px;
   }
 
   .u-section-2 .u-list-1 {
-    margin-top: -52px;
-    margin-bottom: -52px;
+    margin-top: 60px;
     margin-right: initial;
     margin-left: initial;
   }
@@ -2209,7 +2208,6 @@ a { font-size: 1.125rem; line-height: 1.6; }
 
   .u-section-2 .u-list-1 {
     margin-top: 60px;
-    margin-bottom: 60px;
     margin-right: initial;
     margin-left: initial;
   }
