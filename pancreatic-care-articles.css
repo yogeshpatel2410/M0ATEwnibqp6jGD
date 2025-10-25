@@ -1105,6 +1105,7 @@ a.pswp__share--download:hover { background: #dddddd; }
 }
 .u-text .u-icon, .u-btn .u-icon, .u-table-cell .u-icon, .u-tab-link .u-icon, .u-nav-link .u-icon, .u-accordion-link-text .u-icon { position: relative; display: inline; line-height: inherit; font-size: 1em; fill: currentcolor; vertical-align: middle; white-space: nowrap; }
 .u-form-agree .u-btn, .u-table-cell .u-btn, .u-text .u-btn { display: inline-block; margin-top: 0px; margin-bottom: 0px; vertical-align: baseline; white-space: normal; text-align: inherit; }
+.u-form-agree .u-btn.u-button-link, .u-table-cell .u-btn.u-button-link, .u-text .u-btn.u-button-link { display: inline; }
 .u-slider .u-carousel-inner .u-carousel-item.u-active, .u-slider .u-carousel-inner .u-carousel-item-next, .u-slider .u-carousel-inner .u-carousel-item-prev { display: flex; }
 .u-layout-thumbnails .u-carousel-item.u-active, .u-layout-carousel .u-carousel-item.u-active, .u-layout-thumbnails .u-carousel-item.u-carousel-item-next, .u-layout-carousel .u-carousel-item.u-carousel-item-next, .u-layout-thumbnails .u-carousel-item.u-carousel-item-prev, .u-layout-carousel .u-carousel-item.u-carousel-item-prev { display: flex; }
 .u-layout-horizontal .u-repeater::-webkit-scrollbar, .u-layout-horizontal .u-gallery-inner::-webkit-scrollbar { display: none; }

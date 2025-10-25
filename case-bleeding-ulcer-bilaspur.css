@@ -1915,12 +1915,12 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 759px;
+    min-height: 816px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: -123px;
   }
 
   .u-section-1 .u-image-1 {
@@ -1962,6 +1962,16 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
   margin: 18px 64px 20px;
 }
 
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 169px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 767px) {
   .u-section-2 .u-text-1 {
     font-size: 1rem;
@@ -1995,9 +2005,19 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
   }
 }
 
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 1977px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 412px;
+    min-height: 382px;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 237px;
@@ -2109,7 +2129,14 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 53px;
+    min-height: 23px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -2133,7 +2160,7 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 
 @media (max-width: 767px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 153px;
+    min-height: 123px;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -2148,6 +2175,10 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 }
 
 @media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 93px;
+  }
+
   .u-section-4 .u-text-1 {
     font-size: 1.875rem;
   }

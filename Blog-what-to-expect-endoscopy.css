@@ -1987,6 +1987,16 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
   margin: 18px 64px 20px;
 }
 
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 169px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 767px) {
   .u-section-2 .u-text-1 {
     font-size: 1rem;
@@ -2017,7 +2027,11 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 412px;
+    min-height: 382px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-bottom: 30px;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 237px;
@@ -2168,6 +2182,16 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 }
 
 @media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 123px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    margin-top: 30px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-section-4 .u-text-1 {
     font-size: 1.875rem;
   }
@@ -2524,15 +2548,17 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 2046px;
+    min-height: 1953px;
   }
 
   .u-section-6 .u-text-1 {
     font-size: 1.875rem;
+    margin-top: 30px;
   }
 
   .u-section-6 .u-list-1 {
     margin-top: 32px;
+    margin-bottom: -3px;
     margin-right: initial;
     margin-left: initial;
   }

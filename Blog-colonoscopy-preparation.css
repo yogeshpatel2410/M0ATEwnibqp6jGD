@@ -1856,12 +1856,12 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
  html { font-size: 16px; }
  /*end-variables base-font-size*/
 .u-section-1 .u-sheet-1 {
-  min-height: 576px;
+  min-height: 584px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: 56px;
-  margin-bottom: 56px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .u-section-1 .u-image-1 {
@@ -1962,7 +1962,7 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
     padding-bottom: 60px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 159px;
+  min-height: 151px;
 }
 
 .u-section-2 .u-text-1 {
@@ -1989,7 +1989,17 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 .u-section-2 .u-text-2 {
   font-size: 1.25rem;
   font-weight: 700;
-  margin: 18px 64px 20px;
+  margin: 18px 64px 12px;
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 169px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2003,11 +2013,11 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
     font-size: 1.125rem;
   }
 }.u-section-3 .u-sheet-1 {
-  min-height: 472px;
+  min-height: 442px;
 }
 
 .u-section-3 .u-text-1 {
-  margin: 0 0 60px;
+  margin: 0 0 30px;
 }
 
 @media (max-width: 1199px) {
@@ -2134,7 +2144,14 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 53px;
+    min-height: 23px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -2158,7 +2175,7 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 
 @media (max-width: 767px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 153px;
+    min-height: 123px;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -2467,6 +2484,20 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 }
 
 @media (max-width: 991px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 703px;
+  }
+
+  .u-section-6 .u-text-1 {
+    margin-top: 30px;
+  }
+
+  .u-section-6 .u-list-1 {
+    margin-bottom: 30px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-section-6 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 13px));
     grid-auto-columns: calc(50% - 13px);
@@ -2529,7 +2560,7 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 2046px;
+    min-height: 1953px;
   }
 
   .u-section-6 .u-text-1 {
@@ -2538,6 +2569,7 @@ ol { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.
 
   .u-section-6 .u-list-1 {
     margin-top: 32px;
+    margin-bottom: -33px;
     margin-right: initial;
     margin-left: initial;
   }

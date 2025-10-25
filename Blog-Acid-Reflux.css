@@ -1852,12 +1852,12 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
  html { font-size: 16px; }
  /*end-variables base-font-size*/
 .u-section-1 .u-sheet-1 {
-  min-height: 576px;
+  min-height: 584px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: 56px;
-  margin-bottom: 56px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .u-section-1 .u-image-1 {
@@ -1958,7 +1958,7 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
     padding-bottom: 60px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 159px;
+  min-height: 169px;
 }
 
 .u-section-2 .u-text-1 {
@@ -1985,7 +1985,7 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 .u-section-2 .u-text-2 {
   font-size: 1.25rem;
   font-weight: 700;
-  margin: 18px 64px 20px;
+  margin: 18px 64px 30px;
 }
 
 @media (max-width: 767px) {
@@ -2023,7 +2023,11 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 412px;
+    min-height: 382px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-bottom: 30px;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 237px;
@@ -2173,6 +2177,17 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 }
 
 @media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 93px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-section-4 .u-text-1 {
     font-size: 1.875rem;
   }
@@ -2529,15 +2544,17 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 2046px;
+    min-height: 1953px;
   }
 
   .u-section-6 .u-text-1 {
     font-size: 1.875rem;
+    margin-top: 30px;
   }
 
   .u-section-6 .u-list-1 {
     margin-top: 32px;
+    margin-bottom: -3px;
     margin-right: initial;
     margin-left: initial;
   }

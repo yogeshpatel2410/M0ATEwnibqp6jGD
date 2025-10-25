@@ -1911,12 +1911,12 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 759px;
+    min-height: 729px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
   .u-section-1 .u-image-1 {
@@ -1965,8 +1965,16 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 169px;
+  }
+
   .u-section-2 .u-text-1 {
     font-size: 1.125rem;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-bottom: 30px;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 3525px;
@@ -1999,7 +2007,12 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 412px;
+    min-height: 508px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-top: 0;
+    margin-bottom: 30px;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 237px;
@@ -2150,6 +2163,17 @@ ul:not(.u-unstyled) { font-size: 1.125rem; margin-top: 20px; margin-bottom: 20px
 }
 
 @media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 93px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-section-4 .u-text-1 {
     font-size: 1.875rem;
   }
